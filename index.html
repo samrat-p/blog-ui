@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Tech Blog</title>
+  </head>
+  <body>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Stacker</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav mr-auto p-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Teams</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Users</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Toggler</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav class="sticy-top">    
+<li class="ac-ln-menu-item">
+<button type="button" class="btn-topics ac-ln-menu-link" aria-expanded="true">Popular Topics</button>
+</li>
+  
+<li class="topics--narrow">
+<label for="topics-list" class="topics-label">Popular Topics</label>
+<ul id="topics-list" role="list" class="topics-list"> </nav> -->
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <div class="d-flex flex-row-reverse pt-3">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              <div class="icons pe-2">
+                <i class="fa-solid fa-magnifying-glass">
+                  <span class="icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M416 208c0 45.9-14.9 88.3-40 122.7L486.6 441.4 509.3 464 464 509.3l-22.6-22.6L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"
+                      /></svg></span
+                ></i>
+              </div>
+              <span class="acc-topics pe-5"> Search!</span>
+              <span class="acc-topics pe-2">Popular Topics</span>
+            </button>
+          </h2>
+        </div>
+      </div>
+      <div
+        id="flush-collapseOne"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample"
+      >
+        <div class="accordion-body">
+          <div class="acc-body-items">
+            <div class="d-flex justify-content-evenly">
+              <ul class="list-group">
+                <li class="list-group-item">Architechure</li>
+                <li class="list-group-item">Artificial Intelligence</li>
+                <li class="list-group-item">Angular</li>
+                <li class="list-group-item">Agile methodology</li>
+              </ul>
+              <ul class="list-group">
+                <li class="list-group-item">Bi</li>
+                <li class="list-group-item">Binary</li>
+                <li class="list-group-item">Bash</li>
+                <li class="list-group-item">BITS</li>
+              </ul>
+              <ul class="list-group">
+                <li class="list-group-item">Computer Engineering</li>
+                <li class="list-group-item">CI/CD</li>
+                <li class="list-group-item">Cloud</li>
+                <li class="list-group-item">C/C++</li>
+              </ul>
+              <ul class="list-group">
+                <li class="list-group-item">Engine Algorithms</li>
+                <li class="list-group-item">Emphyses</li>
+                <li class="list-group-item">Elementor</li>
+                <li class="list-group-item">Entity</li>
+              </ul>
+              <ul class="list-group">
+                <li class="list-group-item">Flames</li>
+                <li class="list-group-item">Flutter</li>
+                <li class="list-group-item">Figma</li>
+                <li class="list-group-item">Fumes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="pic-ctn">
+      <div class="pic-ctn-child">
+      <img src="./assets/malik-skydsgaard-GxEOyQLP7xY-unsplash (1).jpg" alt="" class="pic">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="car-cap d-flex justify-content-start">Fundamentals of Computer Science</h3>
+           <p class="cap-con d-flex justify-content-start ">Some representative placeholder content for the first slide.</p>
+          
+        </div></div>
+      <div class="pic-ctn-child">
+      <img src="./assets/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg" alt="" class="pic">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="car-cap d-flex justify-content-start">Fundamentals of Computer Science</h3>
+           <p class="cap-con d-flex justify-content-start ">Some representative placeholder content for the first slide.</p>
+          
+        </div></div>
+      <div class="pic-ctn-child">
+      <img src="./assets/mohammad-rahmani-q1p2DrLBtko-unsplash.jpg" alt="" class="pic">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="car-cap d-flex justify-content-start">Fundamentals of Computer Science</h3>
+           <p class="cap-con d-flex justify-content-start ">Some representative placeholder content for the first slide.</p>
+          
+        </div></div>
+      <div class="pic-ctn-child">
+      <img src="./assets/dell-T0t72_3yIIY-unsplash.jpg" alt="" class="pic">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="car-cap d-flex justify-content-start">Fundamentals of Computer Science</h3>
+           <p class="cap-con d-flex justify-content-start ">Some representative placeholder content for the first slide.</p>
+          
+        </div></div>
+      <div class="pic-ctn-child">
+      <img src="./assets/jose-pablo-dominguez-g7V4CYl_nos-unsplash.jpg" alt="" class="pic">
+      <div class="carousel-caption d-none d-md-block">
+        <h3 class="car-cap d-flex justify-content-start">Fundamentals of Computer Science</h3>
+           <p class="cap-con d-flex justify-content-start ">Some representative placeholder content for the first slide.</p>
+          
+        </div><div class="carousel-caption d-none d-md-block">
+          <h3 class="car-cap d-flex justify-content-start">Fundamentals of Computer Science</h3>
+             <p class="cap-con d-flex justify-content-start ">Some representative placeholder content for the first slide.</p>
+            
+          </div></div>
+    </div> -->
+    <div class="pic-ctn">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="car-cap d-flex justify-content-start">
+                Fundamentals of Computer Science
+              </h3>
+              <p class="cap-con d-flex justify-content-start">
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/jose-pablo-dominguez-g7V4CYl_nos-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="car-cap d-flex justify-content-start">
+                Fundamentals of Computer Science
+              </h3>
+              <p class="cap-con d-flex justify-content-start">
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/malik-skydsgaard-GxEOyQLP7xY-unsplash (1).jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="car-cap d-flex justify-content-start">
+                Fundamentals of Computer Science
+              </h3>
+              <p class="cap-con d-flex justify-content-start">
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+repository name blog
+git blog push
