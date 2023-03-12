@@ -3,7 +3,22 @@
 *{
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
+}
+#style-8::-webkit-scrollbar-track
+{
+	border: 1px solid black;
+	background-color: #F5F5F5;
+}
+
+#style-8::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-8::-webkit-scrollbar-thumb
+{
+	background-color: #000000;	
 }
 .navbar{
     background-color: rgba(0, 0, 0, 0.06);
@@ -123,7 +138,7 @@ button.accordion-button{
             opacity: 0;
           }
         }
-        
+        /*
         .pic-ctn img{
           width: 100%;
           height: 500px;
@@ -155,4 +170,13 @@ button.accordion-button{
           width: 100%;
         }
         .pic-ctn-child img:hover {
-        }
+          filter: brightness(50%);
+          cursor: pointer;
+
+        }*/
+       .vl {
+          border-left: 2px solid black;
+          opacity: 50%;
+          height: 100%;
+          float: right;
+       }
