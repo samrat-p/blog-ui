@@ -177,6 +177,12 @@ button.accordion-button{
        .vl {
           border-left: 2px solid black;
           opacity: 50%;
-          height: 100%;
+          height: 80%;
           float: right;
        }
+.user-name{
+  font-size: 0.65rem;
+}
+.card-img, .card-img-bottom, .card-img-top{
+  object-fit: cover;
+}
