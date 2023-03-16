@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
 }
 #style-8::-webkit-scrollbar-track
 {
@@ -186,3 +185,8 @@ button.accordion-button{
 .card-img, .card-img-bottom, .card-img-top{
   object-fit: cover;
 }
+
+.content-date{
+  font-size: 0.8rem;
+  font-weight: bolder;
+  }
