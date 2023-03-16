@@ -190,3 +190,11 @@ button.accordion-button{
   font-size: 0.8rem;
   font-weight: bolder;
   }
+.user-pic_{
+  object-fit: contain;
+}
+.rounded-circle {
+  border-radius: 80% !important;
+  width: 25%;
+  height: 25%;
+}
