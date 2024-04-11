@@ -1,2 +1,2 @@
-repository name blog
+repository name 
 git blog push
