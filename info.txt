@@ -1,2 +1,2 @@
 repository name 
-git blog push    12
+gitblog push    12
